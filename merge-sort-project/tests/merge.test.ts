@@ -2,9 +2,9 @@ import { merge } from "../src/merge";
 
 describe("merge()", () => {
   it("should merge three arrays correctly", () => {
-    const c1 = [9, 7, 5, 3];             // descending
-    const c2 = [2, 4, 6];                // ascending
-    const c3 = [0, 1, 8, 10];            // ascending
+    const c1 = [9, 7, 5, 3];             
+    const c2 = [2, 4, 6];                
+    const c3 = [0, 1, 8, 10];          
 
     const result = merge(c1, c2, c3);
 
